@@ -1,38 +1,39 @@
 # CLAUDE.md
 
-## Repository purpose
+## Propósito do repositório
 
-This is the **GitHub profile README repository** for user `bastelliWill`
-(repo name matches the username, so GitHub renders `README.md` on the
-profile page at github.com/bastelliWill).
+Este é o **repositório de README de perfil do GitHub** do usuário `bastelliWill`
+(o nome do repositório é igual ao do usuário, então o GitHub renderiza o
+`README.md` na página de perfil em github.com/bastelliWill).
 
-There is no application code, build system, dependencies, or test suite —
-the entire repository is a single Markdown file.
+Não há código de aplicação, sistema de build, dependências ou suíte de
+testes — o repositório inteiro é um único arquivo Markdown.
 
-## Structure
+## Estrutura
 
-- `README.md` — the profile page content (in Portuguese). Contains:
-  - A header/intro section with tech badges (Oracle, PL/SQL, SQL, WMS) using
-    `img.shields.io` badge URLs.
-  - An "About me" section describing the author's background as an Oracle/
-    PL/SQL developer focused on WMS (Warehouse Management System) backends.
-  - An "Areas of expertise" bullet list.
-  - A GitHub stats card via `github-readme-stats.vercel.app`.
+- `README.md` — conteúdo da página de perfil (em português). Contém:
+  - Uma seção de cabeçalho/introdução com badges de tecnologia (Oracle,
+    PL/SQL, SQL, WMS) usando URLs do `img.shields.io`.
+  - Uma seção "Sobre mim" descrevendo a experiência do autor como
+    desenvolvedor Oracle/PL/SQL focado em back-end de sistemas WMS
+    (Warehouse Management System).
+  - Uma lista de "Áreas de atuação".
+  - Um card de estatísticas do GitHub via `github-readme-stats.vercel.app`.
 
-## Working conventions
+## Convenções de trabalho
 
-- Keep content in Portuguese (pt-BR) to match the existing tone, unless the
-  user explicitly asks for another language.
-- Preserve the centered HTML layout (`<p align="center">`, `<h1 align="center">`)
-  and the shields.io / github-readme-stats badge style when adding new
-  sections.
-- Changes are purely content/formatting edits to `README.md` — there is
-  nothing to build, lint, or test.
-- When adding badges, follow the existing pattern:
+- Manter o conteúdo em português (pt-BR), seguindo o tom já existente, a
+  menos que o usuário peça explicitamente outro idioma.
+- Preservar o layout centralizado em HTML (`<p align="center">`,
+  `<h1 align="center">`) e o estilo de badges shields.io / github-readme-stats
+  ao adicionar novas seções.
+- As alterações são puramente edições de conteúdo/formatação no
+  `README.md` — não há nada para buildar, lintar ou testar.
+- Ao adicionar badges, seguir o padrão existente:
   `https://img.shields.io/badge/<label>-<color>?style=for-the-badge&logo=<logo>&logoColor=white`.
 
-## Git workflow
+## Fluxo de trabalho com Git
 
-- Develop on the feature branch specified for the task, commit with clear
-  messages, and push when done.
-- Do not open a pull request unless explicitly requested.
+- Desenvolver na branch indicada para a tarefa, commitar com mensagens
+  claras e fazer push ao finalizar.
+- Não abrir pull request a menos que seja solicitado explicitamente.
